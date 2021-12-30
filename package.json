@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
     "commit": "git add . && cz",
     "clean": "rimraf coverage",
     "test": "BABEL_ENV=test jest --detectOpenHandles --forceExit --verbose --coverage",
